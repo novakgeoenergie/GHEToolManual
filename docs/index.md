@@ -14,10 +14,9 @@ Best regards,
 Wouter Peere, developer GHEtool Pro
 
 ```{toctree}
-:caption: 'GHEtool'
+:caption: 'Quick start'
 :maxdepth: 1
 
-self
-sources/quick-start/quick-start.md
-sources/FAQ's/FAQ.md
+sources/quick-start/interface.rst
+sources/quick-start/license.rst
 ```
