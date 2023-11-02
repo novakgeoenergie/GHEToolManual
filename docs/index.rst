@@ -64,11 +64,11 @@ Let us guide you to a few important places:
 
     Get familiar with the general interface of GHEtool Pro.
 
-💡 :doc:`/quick-start/license`
+💡 :doc:`quick-start/license`
 
     You need a license if you want to use GHEtool. Explore here your options.
 
-📚 :doc:`/tabs/tabs`
+📚 :doc:`./tabs/tabs`
 
     Already familiar with GHEtool Pro? Go to the detailed information of the different tabs.
 

@@ -32,10 +32,17 @@ The calculation of the required borehole depth can be done using three different
 
 Simplified
 ----------
-The simplified model is based on the work of (Peere W., 2020) [1]_ and (Peere et al., 2021) [2]_.
+The simplified method is the fastest method (Peere et al., 2023) [1]_ and most of the time it is accurate enough.
+It reduces the total load to three pulses: 1) a yearly imbalance, 2) a monthly peak load and 3) a monthly average load.
+This simplified method is based on the work of (Peere W., 2020) [2]_ and (Peere et al., 2021) [3]_.
 
 Monthly
 -------
+The monthly method is the most accurate methodology for monthly load data. It calculates the depth using the peak and average load
+for each month.
+
+.. note::
+    The monthly method is also the methodology used when calculating the temperature profile and optimising the load profile.
 
 Hourly
 ------
@@ -81,5 +88,6 @@ to more convergence errors.
     These advanced options are only visible if you allow them on the :ref:`settings` tab.
 
 .. rubric:: References
-.. [1] Peere, W., Picard, D., Cupeiro Figueroa, I., Boydens, W., and Helsen, L. (2021) Validated combined first and last year borefield sizing methodology. In Proceedings of International Building Simulation Conference 2021. Brugge (Belgium), 1-3 September 2021. https://doi.org/10.26868/25222708.2021.30180
-.. [2] Peere, W. (2020). Methode voor economische optimalisatie van geothermische verwarmings- en koelsystemen. Master thesis, Department of Mechanical Engineering, KU Leuven, Belgium.
+.. [1] Peere, W., Hermans, L., Boydens, W., and Helsen, L. (2023). Evaluation of the oversizing and computational speed of different open-source borefield sizing methods. In Proceedings of International Building Simulation Conference 2023. Shanghai (Belgium), 4-6 September 2023.
+.. [2] Peere, W., Picard, D., Cupeiro Figueroa, I., Boydens, W., and Helsen, L. (2021) Validated combined first and last year borefield sizing methodology. In Proceedings of International Building Simulation Conference 2021. Brugge (Belgium), 1-3 September 2021. https://doi.org/10.26868/25222708.2021.30180
+.. [3] Peere, W. (2020). Methode voor economische optimalisatie van geothermische verwarmings- en koelsystemen. Master thesis, Department of Mechanical Engineering, KU Leuven, Belgium.
