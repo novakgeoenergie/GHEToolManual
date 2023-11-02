@@ -20,3 +20,17 @@ Wouter Peere, developer GHEtool Pro
 sources/quick-start/interface.rst
 sources/quick-start/license.rst
 ```
+
+```{toctree}
+:caption: 'tabs'
+:maxdepth: 1
+
+sources/tabs/aim.rst
+```
+
+```{toctree}
+:caption: "FAQ's"
+:maxdepth: 1
+
+sources/FAQ's/activate_license.rst
+```
