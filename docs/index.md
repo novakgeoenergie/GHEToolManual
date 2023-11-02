@@ -32,5 +32,6 @@ sources/tabs/aim.rst
 :caption: "FAQ's"
 :maxdepth: 1
 
+sources/FAQ's/activate_trial.rst
 sources/FAQ's/activate_license.rst
 ```
