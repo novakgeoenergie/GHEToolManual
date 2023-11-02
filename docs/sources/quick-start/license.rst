@@ -8,7 +8,6 @@ In this article, we explain how you can activate an already purchased license fr
 Activate a professional license
 *******************************
 
-|Substitution Name|
 
 Activate a trial period
 ***********************
