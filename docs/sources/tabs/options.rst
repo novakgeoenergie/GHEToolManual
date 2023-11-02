@@ -2,3 +2,9 @@
 
 Options
 #######
+
+
+.. _sizing methods:
+
+Sizing methods
+**************
