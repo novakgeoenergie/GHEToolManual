@@ -8,7 +8,7 @@ In this tab the user can define what he or she is going to be calculating in thi
 
 Determine temperature profile
 *****************************
-Test
+This is the basic functionality
 
 Determine required depth
 ************************

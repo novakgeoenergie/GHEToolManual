@@ -18,7 +18,7 @@ Input tabs
 ******
 For every calculation, different information is needed. All these inputs are structured in *tabs*, being:
 
-* **Aim** `tab aim`_ The first tab determines what you will be calculating in this specific scenario.
+* **Aim** :ref:`tab aim` The first tab determines what you will be calculating in this specific scenario.
 * **Options** The option tab contains aim-specific options.
 * **Borefield** Here the borefield configuration can be chosen.
 * **Earth** The earth tab contains information about the ground thermal properties and the simulation options.

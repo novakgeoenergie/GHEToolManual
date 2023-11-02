@@ -22,10 +22,19 @@ sources/quick-start/license.rst
 ```
 
 ```{toctree}
-:caption: 'tabs'
+:caption: 'Tabs'
 :maxdepth: 1
 
 sources/tabs/aim.rst
+```
+
+```{toctree}
+:caption: 'Tutorials'
+:maxdepth: 1
+
+sources/tutorial/determine_temperature_profile.rst
+sources/tutorial/determine_required_depth.rst
+sources/tutorial/optimise_load_profile.rst
 ```
 
 ```{toctree}
