@@ -1,6 +1,6 @@
 .. _interface:
 
-Get to know the GHEtool Pro interface
+Get to know the interface
 #####################################
 
 This article shows you the general structure of the GHEtool Pro interface.

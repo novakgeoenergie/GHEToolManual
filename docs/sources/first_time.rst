@@ -19,6 +19,6 @@ Let us guide you to a few important places:
 
     Do you want an example of what to do with GHEtool Pro? We got you covered!
 
-❓ :doc:`/FAQ's/FAQ`
+❓ :doc:`../FAQ's/FAQ`
 
     Do you have a specific question? Take a look at our FAQ's!
