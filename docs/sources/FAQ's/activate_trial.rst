@@ -25,4 +25,4 @@ during the trial period.
 Buy a professional license
 **************************
 After 14-days your trial period will end and you will have to get a professional, paid license from `https://ghetool.eu <https://ghetool.eu/download/#license>`_.
-Afterwards, you need to activate it within GHEtool. Click here to see how: `activate license`_.
+Afterwards, you need to activate it within GHEtool. Click here to see how: :ref:`activate license`.

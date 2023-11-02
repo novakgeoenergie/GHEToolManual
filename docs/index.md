@@ -26,6 +26,14 @@ sources/quick-start/license.rst
 :maxdepth: 1
 
 sources/tabs/aim.rst
+sources/tabs/options.rst
+sources/tabs/borefield.rst
+sources/tabs/earth.rst
+sources/tabs/thermal_resistance.rst
+sources/tabs/thermal_demand.rst
+sources/tabs/results.rst
+sources/tabs/report.rst
+sources/tabs/settings.rst
 ```
 
 ```{toctree}

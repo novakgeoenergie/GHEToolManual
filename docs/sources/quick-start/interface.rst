@@ -18,15 +18,15 @@ Input tabs
 ******
 For every calculation, different information is needed. All these inputs are structured in *tabs*, being:
 
-* **Aim** :ref:`tab aim` The first tab determines what you will be calculating in this specific scenario.
-* **Options** The option tab contains aim-specific options.
-* **Borefield** Here the borefield configuration can be chosen.
-* **Earth** The earth tab contains information about the ground thermal properties and the simulation options.
-* **Thermal resistance** This tab contains the information w.r.t. the thermal resistance of the borehole.
-* **Thermal demand** Here one can enter the thermal demand for the borefield.
-* **Results** Here one can find the results once a scenario is calculated.
-* **Report** This tab contains all the information w.r.t. the report like a scenario description.
-* **Settings** This tab contains settings for the project.
+* **:ref:`tab aim`** The first tab determines what you will be calculating in this specific scenario.
+* :ref:`tab options` The option tab contains aim-specific options.
+* :ref:`tab borefield` Here the borefield configuration can be chosen.
+* :ref:`tab earth` The earth tab contains information about the ground thermal properties and the simulation options.
+* :ref:`tab thermal resistance` This tab contains the information w.r.t. the thermal resistance of the borehole.
+* :ref:`tab thermal demand` Here one can enter the thermal demand for the borefield.
+* :ref:`tab results` Here one can find the results once a scenario is calculated.
+* :ref:`tab report` This tab contains all the information w.r.t. the report like a scenario description.
+* :ref:`tab settings` This tab contains settings for the project.
 
 Input area
 ******

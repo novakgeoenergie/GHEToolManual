@@ -1,0 +1,4 @@
+.. _tab settings:
+
+Settings
+########
