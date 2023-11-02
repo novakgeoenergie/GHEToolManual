@@ -15,10 +15,10 @@ of all those different scenario's. You can add new scenario's, delete them, rena
 With *update scenario* you can save changes you made to the program.
 
 Input tabs
-******
+**********
 For every calculation, different information is needed. All these inputs are structured in *tabs*, being:
 
-* **:ref:`tab aim`** The first tab determines what you will be calculating in this specific scenario.
+* :ref:`tab aim` The first tab determines what you will be calculating in this specific scenario.
 * :ref:`tab options` The option tab contains aim-specific options.
 * :ref:`tab borefield` Here the borefield configuration can be chosen.
 * :ref:`tab earth` The earth tab contains information about the ground thermal properties and the simulation options.
@@ -29,7 +29,7 @@ For every calculation, different information is needed. All these inputs are str
 * :ref:`tab settings` This tab contains settings for the project.
 
 Input area
-******
+**********
 For every tab, the specific inputs are shown in this area.
 The inputs that are shown can very depending on the options that where selected, the aim you chose etc.
 
