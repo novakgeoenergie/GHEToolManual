@@ -39,13 +39,19 @@ This simplified method is based on the work of (Peere W., 2020) [2]_ and (Peere 
 Monthly
 -------
 The monthly method is the most accurate methodology for monthly load data. It calculates the depth using the peak and average load
-for each month.
+for each month, hence 24 peaks per year.
 
 .. note::
     The monthly method is also the methodology used when calculating the temperature profile and optimising the load profile.
 
 Hourly
 ------
+The
+
+.. caution::
+    It is not because you use data with a high resolution that the sizing will be more realistic.
+    Everything depends on the trustworthiness of your thermal demands. Sometimes, having a trustworthy monthly demand profile
+    can give better results than a bad hourly resolution.
 
 Other options
 =============

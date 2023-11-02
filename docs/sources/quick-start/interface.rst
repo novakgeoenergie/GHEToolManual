@@ -1,3 +1,5 @@
+.. _interface:
+
 Get to know the GHEtool Pro interface
 #####################################
 
