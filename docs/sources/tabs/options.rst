@@ -32,7 +32,7 @@ The calculation of the required borehole depth can be done using three different
 
 Simplified
 ----------
-The simplified model is based on the work of (Peere W., 2020)[1]_ and (Peere et al., 2021)[2]_.
+The simplified model is based on the work of (Peere W., 2020) [1]_ and (Peere et al., 2021) [2]_.
 
 Monthly
 -------

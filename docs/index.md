@@ -16,6 +16,7 @@ Wouter Peere, developer GHEtool Pro
 ```{toctree}
 :caption: '🚀 Quick start'
 :maxdepth: 1
+:hidden:
 
 sources/quick-start/interface.rst
 sources/quick-start/license.rst
