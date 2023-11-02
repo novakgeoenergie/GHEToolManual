@@ -5,13 +5,6 @@ Options
 The options tab gives you control over the aim-specific settings. Those are explained in the sections below.
 Furthermore, you can change some advanced settings w.r.t. the background of GHEtool. These are explained in the last section: :ref:`advanced options`.
 
-❓ :doc:`./FAQ's/FAQ`
-
-❓ :doc:`../FAQ's/FAQ`
-
-
-    Do you have a specific question? Take a look at our FAQ's!
-
 Determine temperature profile
 *****************************
 
