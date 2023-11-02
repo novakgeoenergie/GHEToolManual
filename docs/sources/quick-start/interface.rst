@@ -10,15 +10,15 @@ Below the figure, we will go into depth about what you can find here.
 
 Scenario management
 *******************
-Every calculation you do within GHEtool is done in a _scenario_. This left bar handles everything related to the management
+Every calculation you do within GHEtool is done in a *scenario*. This left bar handles everything related to the management
 of all those different scenario's. You can add new scenario's, delete them, rename them and move them around by dragging-and-dropping.
-With _update scenario_ you can save changes you made to the program.
+With *update scenario* you can save changes you made to the program.
 
 Input tabs
 ******
-For every calculation, different information is needed. All these inputs are structured in _tabs_, being:
+For every calculation, different information is needed. All these inputs are structured in *tabs*, being:
 
-* **Aim** The first tab determines what you will be calculating in this specific scenario.
+* **Aim** **`tab aim`_** The first tab determines what you will be calculating in this specific scenario.
 * **Options** The option tab contains aim-specific options.
 * **Borefield** Here the borefield configuration can be chosen.
 * **Earth** The earth tab contains information about the ground thermal properties and the simulation options.
@@ -41,7 +41,7 @@ to a pdf-report.
 Settings
 ********
 The last important part of the interface are the settings buttons.
-When first opening the tool, two options are shown: _request a trial license_ and _buy a pro license_.
+When first opening the tool, two options are shown: *request a trial license* and *buy a pro license*.
 
-If you already have a license, you can activate it by clicking on _settings_.
+If you already have a license, you can activate it by clicking on *settings*.
 Under settings you also can find the user manual of GHEtool Pro.
