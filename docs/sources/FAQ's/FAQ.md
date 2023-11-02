@@ -1,0 +1,3 @@
+# How can I ...
+Here below, you can find a list of Frequently Asked Questions in the form of 'How can I ...'.
+This list is regularly updated based on questions we receive for professional users.
