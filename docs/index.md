@@ -3,7 +3,7 @@
 Dear visitor,
 
 Welcome to this documentation website with all the information about [GHEtool Pro](https://ghetool.eu).
-Here you can find a quick start guide, a general manual, FAQ's and some example tutorials.
+Here you can find a quick start guide, an in depth overview of all the different tabs within GHEtool, FAQ's and some example tutorials.
 
 If you have any further questions, you can contact the developers via [info@ghetool.eu](mailto:info@ghetool.eu).
 
@@ -14,7 +14,7 @@ Best regards,
 Wouter Peere, developer GHEtool Pro
 
 ```{toctree}
-:caption: 'Quick start'
+:caption: '🚀 Quick start'
 :maxdepth: 1
 
 sources/quick-start/interface.rst
@@ -22,7 +22,7 @@ sources/quick-start/license.rst
 ```
 
 ```{toctree}
-:caption: 'Tabs'
+:caption: '📚 Tabs'
 :maxdepth: 1
 
 sources/tabs/aim.rst
@@ -37,7 +37,7 @@ sources/tabs/settings.rst
 ```
 
 ```{toctree}
-:caption: 'Tutorials'
+:caption: '🪄 Tutorials'
 :maxdepth: 1
 
 sources/tutorial/determine_temperature_profile.rst
@@ -46,7 +46,7 @@ sources/tutorial/optimise_load_profile.rst
 ```
 
 ```{toctree}
-:caption: "FAQ's"
+:caption: "💡 FAQ's"
 :maxdepth: 1
 
 sources/FAQ's/activate_trial.rst
