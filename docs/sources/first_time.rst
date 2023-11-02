@@ -7,7 +7,7 @@ Let us guide you to a few important places:
 
     Get familiar with the general interface of GHEtool Pro.
 
-:doc:`/quick-start/license`_
+💡 :doc:`/quick-start/license`_
 
     You need a license if you want to use GHEtool. Explore here your options.
 
