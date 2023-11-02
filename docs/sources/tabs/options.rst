@@ -5,6 +5,13 @@ Options
 The options tab gives you control over the aim-specific settings. Those are explained in the sections below.
 Furthermore, you can change some advanced settings w.r.t. the background of GHEtool. These are explained in the last section: :ref:`advanced options`.
 
+❓ :doc:`./FAQ's/FAQ`
+
+❓ :doc:`../FAQ's/FAQ`
+
+
+    Do you have a specific question? Take a look at our FAQ's!
+
 Determine temperature profile
 *****************************
 
@@ -46,12 +53,17 @@ for each month, hence 24 peaks per year.
 
 Hourly
 ------
-The
+When the project has been dynamically simulated, this building demand profile can be used to size the borefield.
+
+.. seealso::
+    When you select the hourly option, part of the interface is disabled. Before you can add new scenario's etc.
+    you have to set the hourly load profile here: :ref:`thermal demand`.
 
 .. caution::
     It is not because you use data with a high resolution that the sizing will be more realistic.
     Everything depends on the trustworthiness of your thermal demands. Sometimes, having a trustworthy monthly demand profile
     can give better results than a bad hourly resolution.
+
 
 Other options
 =============
