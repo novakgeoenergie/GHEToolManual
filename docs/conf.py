@@ -25,12 +25,7 @@ project = 'GHEtool Pro'
 copyright = f'{datetime.datetime.now().year}, Enead BV'
 author = 'Wouter Peere (Enead BV)'
 
-# The full version, including alpha/beta/rc tags
-# get current version
-path = pathlib.Path(__file__).parent.parent
-config = ConfigParser()
-config.read_file(open(path.joinpath('setup.cfg'), 'r'))
-release = config.get('metadata', 'version')
+release = "2.2.0"
 
 # -- General configuration ---------------------------------------------------
 
