@@ -24,22 +24,45 @@ Dynamic
 =======
 Most of the time, however, you are working with a Rb* that is calculated dynamically. This gives you the flexibility of playing
 around with certain parameters and really get a feel of how they influence the borehole equivalent resistance.
-In order to be able to calculate the resistance, you have to enter values w.r.t. the :ref:`fluid-parameters`_ and values
-w.r.t. the :ref:`borehole-internals`_.
+In order to be able to calculate the resistance, you have to enter values w.r.t. the :ref:`fluid parameters` and values
+w.r.t. the :ref:`borehole internals`.
 
 .. hint::
     You can vary the pipe and fluid parameters and immediately see the effect
     on the equivalent borehole thermal resistance below.
 
+.. _fluid parameters:
 
 Fluid parameters
 ----------------
+The fluid parameters can be set either by using a certain % of glycol to form a water-glycol mixture or by setting the fluid parameters all by yourself.
+
+.. caution::
+    Be aware that there may be regulatory rules in your region w.r.t. what fluids you can use for geothermal applications.
+
+.. image:: Figures/borehole_resistance_fluid_glycol.png
+  :alt: Input for the fluid glycol parameters
+
+* **Type of glycol** Select the type of glycol you want to use.
+* **Percentage of glycol [%]** The percentage of glycol in the glycol-water mixture.
+* **Reference fluid temperature [°C]** The reference temperature for the fluid properties.
+
+.. |text| include:: ../General/reference_temperature.rst
+.. |text2| literalinclude:: ../General/reference_temperature.rst
+
+
+.. note::
+    |text|
+
+.. note::
+    |text2|
 
 .. image:: Figures/borehole_resistance_fluid_custom.png
   :alt: Input for the custom fluid parameters
 
-.. image:: Figures/borehole_resistance_fluid_glycol.png
-  :alt: Input for the fluid glycol parameters
+
+
+.. _borehole internals:
 
 Borehole internals
 ------------------
