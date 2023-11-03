@@ -26,7 +26,7 @@ Next, you have different options for choosing the ground temperature data: *Meas
 
 Measured
 --------
-When you do a thermal response test or :ref:`TRT` on a specific location, the undisturbed ground temperature is measured.
+When you do a thermal response test or TRT (see also our FAQ: :ref:`TRT`) on a specific location, the undisturbed ground temperature is measured.
 You can fill it in when you click on *Measured*.
 
 Database
@@ -41,6 +41,7 @@ When you have the needed ground data available, you can select *Custom* and fill
 and ground thermal gradient (or flux).
 
 .. |gradient| image:: Figures/gradient.png
+   :align: center
 
 .. caution::
     The *undisturbed ground temperature* model, as is used the database and in the Custom ground data, is far from accurate.
