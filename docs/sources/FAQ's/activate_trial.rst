@@ -16,6 +16,8 @@ during the trial period.
 
 .. image:: Figures/trial_set_name.png
   :alt: Trial set name
+  :width: 350
+  :align: center
 
 .. warning::
     Please make sure you are connected to the internet while requesting a trial license.

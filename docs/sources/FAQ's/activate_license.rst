@@ -12,11 +12,15 @@ To activate the GHEtool Pro license, go to *Settings* and select *Activate Pro l
 
 .. image:: Figures/activate_pro.png
   :alt: Activate Pro license
+  :width: 450
+  :align: center
 
 Next, you enter the license in the input box and press *Okay*.
 
 .. image:: Figures/input_license.png
   :alt: Input the Pro license
+  :width: 350
+  :align: center
 
 .. note::
     You can validate that your license has been activated if your company name is in the top bar of the program window.
