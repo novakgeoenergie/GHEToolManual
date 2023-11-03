@@ -24,7 +24,8 @@ Dynamic
 =======
 Most of the time, however, you are working with a Rb* that is calculated dynamically. This gives you the flexibility of playing
 around with certain parameters and really get a feel of how they influence the borehole equivalent resistance.
-In order to be able to calculate the resistance, you have to enter values w.r.t. the :ref:`Fluid parameters`_
+In order to be able to calculate the resistance, you have to enter values w.r.t. the :ref:`fluid-parameters` and values
+w.r.t. the :ref:`borehole-internals`.
 
 .. hint::
     You can vary the pipe and fluid parameters and immediately see the effect
@@ -39,6 +40,9 @@ Fluid parameters
 
 .. image:: Figures/borehole_resistance_fluid_glycol.png
   :alt: Input for the fluid glycol parameters
+
+Borehole internals
+------------------
 
 .. image:: Figures/borehole_resistance_U.png
   :alt: Input for the U-pipes in the borehole
