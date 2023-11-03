@@ -102,6 +102,9 @@ For larger borefields, it can be easier to create the custom borefield elsewhere
 .. note::
     The csv-file should have have all the columns (x, y, depth, buried depth and radius) like in the figure below.
 
+.. tip::
+    Click :download:`here <Figures/data.csv>`to download an example format.
+
 .. image:: Figures/csv_data.png
   :alt: Custom borefield
   :width: 350
