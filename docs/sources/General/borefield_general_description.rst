@@ -1,4 +1,4 @@
-* **Borehole depth [m]** The depth of the borehole in meters
+* **Borehole depth [m]** The depth of the borehole in meters.
 
 .. caution::
     Please note that the borehole depth is relative to the burial depth, as is used in the convention by Here the convention of (Cimmino and Bernier, 2014) [1]_.
@@ -14,7 +14,7 @@
 * **Number of boreholes in the length direction [-]** This is the number of boreholes in the length direction.
     If you multiply this with the borehole spacing in the length direction, you get the total borefield length.
 
-* **Burial depth [m]** The level at which the borehole starts, relative to the ground level. It can be seen as the
+* **Buried depth [m]** The level at which the borehole starts, relative to the ground level. It can be seen as the
     depth at which the horizontal pipes are installed.
 
 * **Borehole radius [m]** This is the radius of the drilled hole, which is typically between 0,06-0,1m.
