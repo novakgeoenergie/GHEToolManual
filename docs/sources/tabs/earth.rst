@@ -40,7 +40,7 @@ Custom
 When you have the needed ground data available, you can select *Custom* and fill in your own ground surface temperature
 and ground thermal gradient (or flux).
 
-.. |gradient| image:: Figures/gradient.jpg
+.. |gradient| image:: Figures/gradient.png
   :width: 350
   :align: center
 
