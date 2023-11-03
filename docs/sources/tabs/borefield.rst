@@ -55,12 +55,12 @@ Circular configuration
     So if you have a burial depth of 1m and a borehole depth of 100m, the total drilled depth is 101m.
 
 * **Distance of the boreholes from the center of the field [m]** The radius at which the boreholes are drilled relative to the center
-    of the circle in meters.
+  of the circle in meters.
 
 * **Number of boreholes [-]** The number of boreholes in the circular borefield.
 
 * **Buried depth [m]** The level at which the borehole starts, relative to the ground level. It can be seen as the
-    depth at which the horizontal pipes are installed.
+  depth at which the horizontal pipes are installed.
 
 * **Borehole radius [m]** This is the radius of the drilled hole, which is typically between 0,06-0,1m.
 .. image:: Figures/borefield_circle.png
@@ -90,19 +90,20 @@ This duplicates the current row to the row underneath. Here you can change the f
 * **y [m]** The y-coordinate of the borehole in meters.
 * **Depth [m]** The depth of the borehole in meters, relative to the buried depth.
 * **Buried depth [m]** Every borehole can have a different buried depth (in meters). If, for example, a couple of boreholes are located
-    under a road, they are buried at another level.
+  under a road, they are buried at another level.
 * **Borehole radius [m]** It is possible to set a custom radius for each borehole (in meters). However, most of the time, this is constant for the whole field.
 
 .. _import a borefield from csv:
 
 Import a borefield from csv
 ===========================
-For larger borefields, it can be easier to create the custom borefield elsewhere (for example in excel, see :ref:`create custom borefield` for a tutorial) and import it here.
+For larger borefields, it can be easier to create the custom borefield elsewhere (for example in Excel, see :ref:`create custom borefield` for a tutorial) and import it here.
 
 .. note::
     The csv-file should have have all the columns (x, y, depth, buried depth and radius) like in the figure below.
-    .. image:: Figures/csv_data.png
-        :alt: Custom borefield
+
+.. image:: Figures/csv_data.png
+  :alt: Custom borefield
 
 #. Open the file where you have entered the borefield data
 #. Select the correct separator of the csv-file and decimal point

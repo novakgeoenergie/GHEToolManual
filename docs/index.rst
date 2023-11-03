@@ -30,6 +30,7 @@ GHEtool Pro: the tool for borefield calculations
     :maxdepth: 1
     :hidden:
 
+    sources/tutorial/create_custom_borefield.rst
     sources/tutorial/determine_temperature_profile.rst
     sources/tutorial/determine_required_depth.rst
     sources/tutorial/optimise_load_profile.rst

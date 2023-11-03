@@ -9,12 +9,12 @@
 * **Borehole spacing length [m]** This is the distance between consecutive boreholes in the length direction.
 
 * **Number of boreholes in the width direction [-]** This is the number of boreholes in the width direction.
-    If you multiply this with the borehole spacing in the width direction, you get the total borefield width.
+  If you multiply this with the borehole spacing in the width direction, you get the total borefield width.
 
 * **Number of boreholes in the length direction [-]** This is the number of boreholes in the length direction.
-    If you multiply this with the borehole spacing in the length direction, you get the total borefield length.
+  If you multiply this with the borehole spacing in the length direction, you get the total borefield length.
 
 * **Buried depth [m]** The level at which the borehole starts, relative to the ground level. It can be seen as the
-    depth at which the horizontal pipes are installed.
+  depth at which the horizontal pipes are installed.
 
 * **Borehole radius [m]** This is the radius of the drilled hole, which is typically between 0,06-0,1m.
