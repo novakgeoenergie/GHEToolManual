@@ -41,7 +41,6 @@ When you have the needed ground data available, you can select *Custom* and fill
 and ground thermal gradient (or flux).
 
 .. |gradient| image:: Figures/gradient.png
-   :width: 300
 
 .. caution::
     The *undisturbed ground temperature* model, as is used the database and in the Custom ground data, is far from accurate.
