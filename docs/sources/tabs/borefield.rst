@@ -104,14 +104,15 @@ For larger borefields, it can be easier to create the custom borefield elsewhere
 
 .. image:: Figures/csv_data.png
   :alt: Custom borefield
-  :width: 400
+  :width: 350
+  :align: center
 
 #. Open the file where you have entered the borefield data
-#. Select the correct separator of the csv-file and decimal point
+#. Select the correct separator of the csv-file and decimal sign
 #. Press load and your borefield should be automatically imported. Now you can change it to whatever you want.
 
 .. tip::
-    If you don't see your borefield loaded in correctly, try to change your separator or decimal point and try loading again.
+    If you don't see your borefield loaded in correctly, try to change your separator or decimal sign and try loading again.
     This is a common issue.
 
 .. warning::
