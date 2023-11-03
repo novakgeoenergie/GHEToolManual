@@ -43,13 +43,7 @@ To set the value of the borehole thermal resistance, you go to the :ref:`tab opt
 for the borehole resistance. Next, you go to the :ref:`tab thermal resistance` tab and you enter the value
 from the TRT.
 
-.. warning::
-    Using TRT-data for the aim of determining the required depth is dangerous, since the measured borehole equivalent thermal resistance
-    is only valid for one specific depth (since this parameter is a function of the depth). Since this aim changes the depth of the boreholes
-    the borehole resistance will change as well. This effect can be very significant if you have a fluid regime on the border of laminar/turbulent flow
-    (see also :ref:`reynolds number`).
-
-    Please use this only as a first estimate and for final depths that are in line with the depth of the measured borehole.
+.. include:: ../General/warning_TRT.rst
 
 .. rubric:: References
 .. [1] François L., Van de Bossche P., Van Lysebetten, G. (2016) Technische voorlichting (259): Ondiepe geothermie, ontwerp en uitvoering van bodemenergiesystemen met U-vormige bodemwarmtewisselaars (in Dutch).

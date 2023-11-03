@@ -1,6 +1,6 @@
 .. _create custom borefield:
 
-How can I Importing a custom borefield
+How can I import a custom borefield
 ######################################
 In this tutorial you will learn how you can create a custom borefield in Excel and import it into GHEtool.
 
