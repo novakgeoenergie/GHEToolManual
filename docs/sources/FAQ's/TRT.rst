@@ -14,7 +14,7 @@ design of the borefield, it is recommended to use TRT for big projects.
     Practically, a TRT-test takes place after the first borehole has been drilled. This borehole should be representative
     for the whole borefield. A monitoring machine is connected to the pipes and a fluid starts circulating, measuring
     the initial ground temperature. After a while, the machine start injecting a constant power into the ground and measuring
-    the temperature evolution of inlet and outlet. (Based on (François et al., 2016) [1]_.)
+    the temperature evolution of inlet and outlet. (Based on (François et al., 2016) [1]_)
 
 A TRT test measures three different things:
 
