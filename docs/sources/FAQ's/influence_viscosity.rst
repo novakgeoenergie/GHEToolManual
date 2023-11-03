@@ -12,7 +12,7 @@ But what is this number exactly.
 
 .. note::
     The Reynolds number is calculated as follows:
-    :math:`\fraq{\rho D \dot{V}}{\mu}`
+    :math:`\frac{\rho D \dot{V}}{\mu}`
 
 Influence of the reference temperature
 ======================================
