@@ -43,7 +43,7 @@ GHEtool Pro: the tool for borefield calculations
     sources/FAQ's/activate_trial.rst
     sources/FAQ's/activate_license.rst
     sources/FAQ's/winerror.rst
-    sources/FAQ's/influence_viscosity.rst
+    sources/FAQ's/reynolds_number.rst
     sources/FAQ's/borehole_internals.rst
 
 A short welcome message
