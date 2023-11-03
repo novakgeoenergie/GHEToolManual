@@ -27,7 +27,7 @@ Scenario-specific settings
 ==========================
 Each scenario has its own settings, determining how it will be displayed in the final report.
 
-.. image:: Figures/report_scenario.png
+.. image:: Figures/report_scenario_specific.png
   :alt: Scenario-specific report settings
 
 * **Should this scenario be included in the report?** If you have calculated a scenario for yourself, that was not part of the

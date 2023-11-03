@@ -42,6 +42,7 @@ GHEtool Pro: the tool for borefield calculations
 
     sources/FAQ's/activate_trial.rst
     sources/FAQ's/activate_license.rst
+    sources/FAQ's/change_report_language.rst
     sources/FAQ's/TRT.rst
     sources/FAQ's/winerror.rst
     sources/FAQ's/reynolds_number.rst
