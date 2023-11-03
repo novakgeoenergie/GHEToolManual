@@ -37,7 +37,7 @@ extensions = [
     'myst_parser',
     'sphinx.ext.autosectionlabel',
     'sphinx_rtd_theme',
-    'sphinx.ext.imgmath',
+    'sphinx.ext.mathjax',
     'sphinx.ext.autodoc',
     'sphinx_design',
     'numpydoc'
