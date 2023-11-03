@@ -6,6 +6,8 @@ To activate it, you select *Request 14 days trial* in the top bar, or you go to 
 
 .. image:: Figures/settings_trial.png
   :alt: Activate trial settings
+  :width: 500
+  :align: center
 
 .. note::
     If you don't see the option to activate a trial license, it is possible that the trial license is already active (you can check this
@@ -16,7 +18,7 @@ during the trial period.
 
 .. image:: Figures/trial_set_name.png
   :alt: Trial set name
-  :width: 350
+  :width: 300
   :align: center
 
 .. warning::
