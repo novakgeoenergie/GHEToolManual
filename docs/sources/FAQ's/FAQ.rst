@@ -12,4 +12,5 @@ Do you have a specific question? Perhaps you can find it in the list below!
     activate_trial.rst
     activate_license.rst
     winerror.rst
+    influence_viscosity.rst
     borehole_internals.rst
