@@ -104,6 +104,7 @@ For larger borefields, it can be easier to create the custom borefield elsewhere
 
 .. image:: Figures/csv_data.png
   :alt: Custom borefield
+  :width: 400
 
 #. Open the file where you have entered the borefield data
 #. Select the correct separator of the csv-file and decimal point
