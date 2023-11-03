@@ -11,7 +11,16 @@ Since all the tabulated ground data is an oversimplification of reality and grou
 design of the borefield, it is recommended to use TRT for big projects.
 
 .. note::
-    Practically, a TRT-test takes place after the first borehole has been drilled, in the same way
+    Practically, a TRT-test takes place after the first borehole has been drilled. This borehole should be representative
+    for the whole borefield. A monitoring machine is connected to the pipes and a fluid starts circulating, measuring
+    the initial ground temperature. After a while, the machine start injecting a constant power into the ground and measuring
+    the temperature evolution of inlet and outlet. (Based on (François et al., 2016) [1]_.)
+
+A TRT test measures three different things:
+
+#. The initial (undisturbed) ground temperature
+#. The ground thermal conductivity
+#. The borehole equivalent thermal resistance
 
 How to enter this into GHEtool?
 ===============================
@@ -41,3 +50,6 @@ from the TRT.
     (see also :ref:`reynolds number`).
 
     Please use this only as a first estimate and for final depths that are in line with the depth of the measured borehole.
+
+.. rubric:: References
+.. [1] François L., Van de Bossche P., Van Lysebetten, G. (2016) Technische voorlichting (259): Ondiepe geothermie, ontwerp en uitvoering van bodemenergiesystemen met U-vormige bodemwarmtewisselaars (in Dutch).
