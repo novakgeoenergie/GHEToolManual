@@ -1,7 +1,7 @@
 * **Borehole depth [m]** The depth of the borehole in meters.
 
 .. caution::
-    Please note that the borehole depth is relative to the burial depth, as is used in the convention by Here the convention of (Cimmino and Bernier, 2014) [1]_.
+    Please note that the borehole depth is relative to the burial depth. Here the convention of (Cimmino and Bernier, 2014) [1]_ is used.
     So if you have a burial depth of 1m and a borehole depth of 100m, the total drilled depth is 101m.
 
 * **Borehole spacing width [m]** This is the distances between consecutive boreholes in the width direction.

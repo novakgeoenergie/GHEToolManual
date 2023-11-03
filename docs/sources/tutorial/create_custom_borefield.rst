@@ -11,7 +11,7 @@ First you need to open Excel and start a new project.
 Next, you have to set the columns to: *x(m), y(m), depth(m), buried(m), radius(m)*. Although the exact column names are not
 that important, it is easy for you to work with.
 
-.. image:: Figures/excel_with_colums.png
+.. image:: Figures/excel_with_columns.png
   :alt: Excel file with columns
   :width: 350
   :align: center
