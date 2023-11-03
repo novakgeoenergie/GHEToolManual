@@ -10,7 +10,7 @@ But what is this number exactly.
     The transition between a laminar and a turbulent flow, is not very clear and within GHEtool it is assumed to be laminar below Re<2300 and turbulent for Re>4000.
     Everything in between is interpolated.
 
-.. admonition:: Theoretical background
+.. note::
     The Reynolds number is calculated as follows:
     :math:`\fraq{\rho D \dot{V}}{\mu}`
 
