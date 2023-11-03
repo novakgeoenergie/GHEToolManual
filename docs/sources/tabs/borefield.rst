@@ -48,7 +48,7 @@ U configuration
 Circular configuration
 **********************
 
-* ** Borehole depth [m]** The depth of the borehole in meters, relative to the buried depth.
+* **Borehole depth [m]** The depth of the borehole in meters, relative to the buried depth.
 
 .. caution::
     Please note that the borehole depth is relative to the burial depth, as is used in the convention by Here the convention of (Cimmino and Bernier, 2014) [1]_.
