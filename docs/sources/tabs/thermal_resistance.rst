@@ -46,29 +46,78 @@ The fluid parameters can be set either by using a certain % of glycol to form a 
 * **Type of glycol** Select the type of glycol you want to use.
 * **Percentage of glycol [%]** The percentage of glycol in the glycol-water mixture.
 * **Reference fluid temperature [°C]** The reference temperature for the fluid properties.
-
-.. |text| include:: ../General/reference_temperature.rst
-.. |text2| literalinclude:: ../General/reference_temperature.rst
-
+* **Mass flow rate [kg/s]** Mass flow rate per borehole.
 
 .. note::
-    |text|
+    Within GHEtool, the fluid temperatures are *the average fluid temperatures*, meaning the average between the intlet
+    and outlet fluid temperature. The minimum average fluid temperature is therefore not the lowest temperature you inject into
+    your borefield during the heating peak, but the average between the inlet and outlet temperatures of your borefield.
 
-.. note::
-    |text2|
+    This is the case since in the background, the only temperature that matters for the heat transfer is the average fluid temperature,
+    and since the inlet and outlet temperatures are depending on the mass flow rate, it is easier to work with an average temperature.
+
+    If you typically work with, e.g. a minimum inlet temperature of 0, with a :math:`\Delta T` across your borefield of 4°C,
+    you enter 2°C as a minimum average fluid temperature.
+
+If you have a very specific fluid, you can enter its properties directly into GHEtool if you select *Custom* in the *Fluid properties* input.
 
 .. image:: Figures/borehole_resistance_fluid_custom.png
   :alt: Input for the custom fluid parameters
 
+* **Thermal conductivity [W/mK]** Thermal conductivity of the fluid.
+* **Density [kg/m³]** Density of the fluid.
+* **Thermal capacity [J/kgK]** Thermal heat capacity of the fluid.
+* **Dynamic viscosity [Pa s]** Dynamic viscosity of the fluid.
+* **Mass flow rate [kg/s]** Mass flow rate per borehole.
 
+.. warning::
+    Please make sure you enter the **dynamic** viscosity and not the **kinematic** viscosity.
+    You can convert one into another by using: :math:`\mu = \nu \cdot \rho`, where:
+
+    * :math:`\mu` is the dynamic viscosity [Pa s] (= [Ns/m²])
+    * :math:`\nu` is the kinematic viscosity [m²/s]
+    * :math:`\rho` is the density [kg/m³]
+
+.. note::
+    The **Mass flow rate** within GHEtool is the mass flow rate per borehole. This means that if you have for example 0.2kg/s of
+    flow rate and a double U-tube, this gives 0.1kg/s of flow through each tube. If you have a single U-tube, this 0.2kg/s will pass
+    through this single U-tube.
+
+.. hint::
+    If you want to take into account a higher flow rate when working with a series connection of borehole, you enter the resulting
+    fluid mass flow rate into GHEtool. For example, you have a total mass flow rate of 0.4kg/s for 4 boreholes, with 2x2 in series,
+    you enter 0.2kg/s as a mass flow rate into GHEtool.
 
 .. _borehole internals:
 
 Borehole internals
 ------------------
+For borehole internals, there are two major options: using U-tubes or using a coaxial pipe.
 
 .. image:: Figures/borehole_resistance_U.png
   :alt: Input for the U-pipes in the borehole
 
+* **Number of pipes [-]** The number of U-tubes in the borehole.
+* **Grout thermal conductivity [W/mK]** Thermal conductivity of the grout.
+* **Pipe thermal conductivity [W/mK]** Thermal conductivity of the pipe. (This mostly stays unchanged.)
+* **Inner pipe radius [m]** The inner radius of the pipe in meter.
+* **Outer pipe radius [m]** The outer radius of the pipe in meter.
+* **Borehole radius [m]** Radius of the borehole in meter. (This input is duplicated from the :ref:`tab borefield` tab.)
+* **Distance of pipe until center [m]** This is an estimation of the locations of the pipe inside the borehole.
+* **Pipe roughness [m]** The roughness of the pipe. Most of the times, since we are working with PE, this is very small.
+
+.. include:: ../General/pipe_roughness.rst
+
 .. image:: Figures/borehole_resistance_coaxial.png
   :alt: Input for the coaxial pipe parameters
+
+* **Grout thermal conductivity [W/mK]** Thermal conductivity of the grout.
+* **Pipe thermal conductivity [W/mK]** Thermal conductivity of the pipe. (This mostly stays unchanged.)
+* **Inner pipe inner radius [m]** The inner radius of the inner pipe in meter.
+* **Inner pipe outer radius [m]** The inner radius of the outer pipe in meter.
+* **Outer pipe inner radius [m]** The outer radius of the inner pipe in meter.
+* **Outer pipe outer radius [m]** The outer radius of the outer pipe in meter.
+* **Borehole radius [m]** Radius of the borehole in meter. (This input is duplicated from the :ref:`tab borefield` tab.)
+* **Pipe roughness [m]** The roughness of the pipe. Most of the times, since we are working with PE, this is very small.
+
+.. include:: ../General/pipe_roughness.rst
