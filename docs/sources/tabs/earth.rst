@@ -7,12 +7,40 @@ Both are explained below.
 
 Earth properties
 ================
-All borefield calculations start with a correct estimation of the ground temperature.
+All borefield calculations start with a correct estimation of the ground parameters.
+Within GHEtool, there are different ways of setting these ground parameters.
+
+.. note::
+    Each country or region has typically its own database with ground data. Please consult these local databases before
+    using the GHEtool default values for more accurate results for your project.
 
 .. image:: Figures/earth_properties.png
   :alt: Earth properties
 
-.. |gradient| image:: Figures/gradient.png
+* **Conductivity of the soil [W/mK]** The thermal conductivity of the soil (also called the :math:`\lambda`-value).
+  The larger this parameter, the better the earth can handle large heating or cooling demands.
+* **Ground volumetric heat capacity [kJ/m³K]** The volumetric heat capacity of the soil. The higher this value,
+  the more the ground will act like a 'thermal battery'.
+
+Next, you have different options for choosing the ground temperature data: *Measured*, *Database* (default) or *Custom*.
+
+Measured
+--------
+When you do a thermal response test or :ref:`TRT` on a specific location, the undisturbed ground temperature is measured.
+You can fill it in when you click on *Measured*.
+
+Database
+--------
+Most often, especially in early design stages, ground temperatures are not (yet) know. If you don't have prior knowledge
+of the location, you can use the default temperature database, which is publicly available `here <http://buildingphysics.com/download/EED_Database.zip>`_.
+Below, you can find what the ground temperature and the geothermal heat flux is in that specific location.
+
+Custom
+------
+When you have the needed ground data available, you can select *Custom* and fill in your own ground surface temperature
+and ground thermal gradient (or flux).
+
+.. |gradient| image:: Figures/gradient.jpg
   :width: 350
   :align: center
 
@@ -25,7 +53,7 @@ All borefield calculations start with a correct estimation of the ground tempera
 
     Nowadays, especially in city centers, one can notice a big increase in ground temperatures near the surface, do to all the
     buildings. Here, if you go deeper, the temperature **decreases** instead of **increases** (Radioti et al., 2017) [1]_. This cannot be captured within
-    a simple model and it is therefore suggested to do TRT-tests whenever you are doing a project nearby a densely built-up area.
+    a simple model and it is therefore suggested to do TRT-tests (see also :ref:`TRT`) whenever you are doing a project nearby a densely built-up area.
 
 Temperature constraints and simulation period
 =============================================

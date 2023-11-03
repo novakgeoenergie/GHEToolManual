@@ -11,6 +11,7 @@ Do you have a specific question? Perhaps you can find it in the list below!
 
     activate_trial.rst
     activate_license.rst
+    TRT.rst
     winerror.rst
     reynolds_number.rst
     borehole_internals.rst
