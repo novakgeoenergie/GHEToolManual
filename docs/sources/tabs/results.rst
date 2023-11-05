@@ -57,4 +57,4 @@ These results hence can be used to start designing an intelligent hybrid system 
 
 Errors
 ======
-It is possible that no results are shown,
+It is possible that no results are shown, but that you see an error. Please go to our :ref:`errors` section to learn more.
