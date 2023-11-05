@@ -119,7 +119,7 @@ For larger borefields, it can be easier to create the custom borefield elsewhere
     This is a common issue.
 
 .. warning::
-    Be careful when setting a custom borefield. If you have two boreholes overlapping, you will get an error message.
+    Be careful when setting a custom borefield. If you have two boreholes overlapping, you will get an error message (see also :ref:`duplicate`).
 
 .. rubric:: References
 .. [1] Massimo Cimmino, Michel Bernier, A semi-analytical method to generate g-functions for geothermal bore fields, International Journal of Heat and Mass Transfer, Volume 70, 2014, Pages 641-650, ISSN 0017-9310, https://doi.org/10.1016/j.ijheatmasstransfer.2013.11.037.

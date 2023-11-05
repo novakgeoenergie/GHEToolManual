@@ -39,6 +39,8 @@ Once opened, GHEtool normally sets the separator and decimal sign itself.
 
     Secondly, make sure you know what separator and decimal sign characters are, so you can select them correctly in GHEtool.
 
+    For more information, go to the article on errors: :ref:`errors`.
+
 .. tip::
     You can download an example hourly profile :download:`here <Figures/hourly_profile.csv>`.
 
