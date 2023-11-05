@@ -61,7 +61,7 @@ If you go to the :ref:`tab thermal demand` tab, you can correct this.
 
 Runtime error
 =============
-.. image:: Figures/runtime_error.png
+.. image:: Figures/error_runtime.png
   :alt: Error when the method takes longer than the maximum allowed time.
 
 Every method in GHEtool takes some time, since they require (a lot of) iterations. In the :ref:`tab settings` tab
