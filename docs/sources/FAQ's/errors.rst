@@ -59,6 +59,20 @@ This error occurs when working with hourly data in a csv format in the :ref:`tab
 if you selected the wrong sign for the decimal point indicator.
 If you go to the :ref:`tab thermal demand` tab, you can correct this.
 
+Fluid error
+===========
+.. image:: Figures/error_fluid.png
+  :alt: Error when wrong % of glycol is selected.
+
+This error does occur when you work with a water-glycol mixture with a reference temperature that is below the freezing
+temperature of the mixture. To solve this issue, please go to the :ref:`tab thermal resistance` tab and select either a higher
+percentage of glycol or make the reference temperature higher.
+
+.. note::
+    Note that this reference temperature has an influence on the fluid properties like the dynamic viscosity, which influences
+    the :ref:`reynolds number` and hence also the thermal resistance.
+
+
 Runtime error
 =============
 .. image:: Figures/error_runtime.png

@@ -21,7 +21,9 @@ Below you can find an example of the *numerical results* section for the 'determ
 .. image:: Figures/numerical_results_temp_profile.png
   :alt: Numerical results for the temperature profile
 
-The shown maximum and minimum temperatures are taken over the whole simulation period in peak load.
+The shown maximum and minimum temperatures are taken over the whole simulation period in peak load for cooling and heating.
+
+
 
 .. note::
     Note that your results might differ, since for example the average ground temperature is not shown when a measured
