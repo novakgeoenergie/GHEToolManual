@@ -37,3 +37,7 @@ many peak heating/cooling has to be full-filled with another solution.
 .. note::
     This method currently does not allow a DHW load on top of the hourly load.
     Please include your DHW load into the hourly profile if you want to take it into account.
+
+.. note::
+    This method uses a monthly based temperature calculation in the background in order to speed op the algorithm.
+    This however will most often not lead to any significant differences.

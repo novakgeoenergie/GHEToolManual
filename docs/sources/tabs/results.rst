@@ -28,6 +28,26 @@ The shown maximum and minimum temperatures are taken over the whole simulation p
     ground temperature is used (see :ref:`tab earth` tab) nor is the borehole equivalent resistance and reynolds number shown
     when a constant borehole resistance is assumed (see :ref:`tab options` tab).
 
+You also see a temperature profile like the one below.
+
+    .. image:: Figures/results_monthly_temperature_profile.png
+      :alt: Monthly temperature profile
+
+.. |hourly| image:: Figures/hourly.png
+
+.. note::
+    If you work with monthly data (see also :ref:`options` tab), you don't see the option of an hourly profile.
+    If you set this button to 'yes', you see the image below.
+
+    |hourly|
+
+    The reason this hourly profile is not shown from the beginning, is due to the loading time. A monthly profile is way faster
+    to display, than the hourly one, since the first one has way less pulses to display.
+
+.. caution::
+    You also see a load duration curve if you selected hourly data in the :ref:`options` tab, but this curve is wrong, due
+    to a bug in the current version of GHEtool (`read more <https://github.com/wouterpeere/GHEtool/issues/189>`_). This will be fixed in the next version.
+
 Determine required depth
 ========================
 Below you can find an example of the *numerical results* section for the 'calculate required depth' aim.
@@ -44,6 +64,24 @@ This is rather equal to the numerical results of the 'determine temperature prof
 .. caution::
     This method is also vulnerable to errors. See the section :ref:`errors` below to learn more.
 
+You also see a temperature profile like the one below. This profile looks very similar to the profile one gets from
+calculating the temperature profile, but here, the temperature profile touches the temperature limits somewhere.
+
+    .. image:: Figures/results_req_depth.png
+      :alt: Monthly temperature profile for calculate required depth
+
+.. |hourly_req| image:: Figures/hourly_req.png
+
+.. note::
+    If you work with monthly data (see also :ref:`options` tab), you don't see the option of an hourly profile.
+    If you set this button to 'yes', you see the image below.
+
+    |hourly_req|
+
+    The reason this hourly profile is not shown from the beginning, is due to the loading time. A monthly profile is way faster
+    to display, than the hourly one, since the first one has way less pulses to display.
+
+
 Optimise load profile
 =====================
 The optimised load profile results show you what percentage of the total heating and cooling load can be fulfilled geothermally,
@@ -54,6 +92,23 @@ These results hence can be used to start designing an intelligent hybrid system 
 
 .. image:: Figures/numerical_results_optimise.png
   :alt: Numerical results for optimise load profile.
+
+You also see a temperature profile like the one below. Most of the times, the temperature profile touches both the maximum
+and the minimum allowed average fluid temperature.
+
+    .. image:: Figures/results_optimise.png
+      :alt: Monthly temperature profile for calculate required depth
+
+.. caution::
+    If you select hourly in the temperature profile category, you potentially see a temperature peak that crosses this temperature
+    limit. This is do to that fact that in the background, this 'optimise load profile' method uses a monthly temperature calculation
+    (see also :ref:`tab aim` tab).
+
+You also see the load duration curve of the load that is put onto the borefield. You can see that this load is topped off
+at a certain power, which can be read in the numerical results on top of the results tab.
+
+.. image:: Figures/load_duration.png
+      :alt: Load duration curve
 
 Errors
 ======
