@@ -8,7 +8,7 @@ tells you everything you need to know about your design, but it also has some li
 behind those temperature plots will be explained (:ref:`interpretation plots`) and also some of the effects that are not included
 are discussed (:ref:`not included`).
 
-.. admonition:: Test 1,2,3
+.. tip:: Test 1,2,3
     Software is designed for general cases, and special projects will always require customized advice or a tailored study.
     If you find yourself questioning whether the complexity of a particular project exceeds the current capabilities of the software,
     feel free to reach out to us at `wouter@ghetool.eu <mailto:wouter@ghetool.eu>`_ for a specialised method or consultancy advice.
