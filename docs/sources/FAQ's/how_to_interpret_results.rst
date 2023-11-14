@@ -27,9 +27,39 @@ Monthly temperature profile
 ---------------------------
 In this section, we will discuss some of the insights you can get from looking and studying a monthly based temperature profile.
 
-
 .. image:: Figures/results.png
   :alt: Monthly temperature profile
+
+When looking at the figure above, you can see that we have 7 different lines on the temperature plot.
+The two dotted lines are respectively the maximum and minimum allowed average fluid temperature in the geothermal system.
+This parameter you can set in the :ref:`tab earth` tab. The other curves are:
+
+.. note::
+    The fluid temperatures you see within GHEtool are the *average fluid temperature* of the borefield.
+    This is the average between the inlet and outlet temperature of the borefield.. If you want to know the maximum/minimum inlet or outlet
+    temperature, you can calculate it yourself if you take into account the required :math:`\Delta T` across the borefield.
+
+* **Tb** This is the temperature of the borehole wall, i.e. the ground close to the borefield.
+
+Next, there are two temperatures related to the peak loads: i.e. the maximum amount of power in both heating and cooling.
+These high peaks lead to the most extreme fluid temperatures and are hence the most crucial in borefield design.
+
+* **Tf peak cooling** This is the average fluid temperature you get during the peak in cooling.
+* **Tf peak heating** This is the average fluid temperature you get during the peak in heating.
+
+The last two temperatures are related to the base load (i.e. the average load in a certain month). The peak only occurs for
+a certain amount of hours (which can be set in the :ref:`tab earth` tab), but the average load occurs for a whole month constantly.
+This line is the average *average* fluid temperature you get when you assume the whole heating or cooling demand of a certain month,
+is spread out evenly throughout this month.
+
+.. hint::
+    If you have for example a heating demand of 730kWh, this will give you a base load of 1kW for the entire month.
+    This 1kW is used to calculate the dotted red temperature curve.
+
+* **Tf base cooling** This is the average monthly average fluid temperature in cooling.
+* **Tf base heating** This is the average monthly average fluid temperature in heating.
+
+Looking at the different t
 
 .. _hourly profile::
 Hourly temperature profile
@@ -46,11 +76,11 @@ an hourly profile has only one of the two.
 .. image:: Figures/results_hourly.png
   :alt: Hourly temperature profile
 
-On the temperature plot above, you see two lines:
+The two dotted lines are respectively the maximum and minimum allowed average fluid temperature in the geothermal system.
+This parameter you can set in the :ref:`tab earth` tab. The other curves are:
 
-* **Tb: borehole wall temperature** This is the temperature (in degrees C) of the borehole wall.
-* **Tf: average fluid temperature** This is the average fluid temperature (in degrees C) for every hour in the simulation period.
-This is the average between the inlet and outlet fluid temperature of your borefield.
+* **Tb: borehole wall temperature** This is the temperature of the borehole wall, i.e. the ground close to the borefield.
+* **Tf: average fluid temperature** This is the average fluid temperature for every hour in the simulation period.
 
 .. _not included::
 
