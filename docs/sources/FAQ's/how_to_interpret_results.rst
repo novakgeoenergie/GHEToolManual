@@ -1,7 +1,7 @@
 .. _interpret results::
 
-How to interpret temperature profiles
-#####################################
+How to interpret temperature profiles?
+######################################
 
 At the very center of a good borefield design, is the temperature plot with all the fluid temperatures. This plot
 tells you everything you need to know about your design, but it also has some limitations. In this article, the interpretation
@@ -20,9 +20,10 @@ are discussed (:ref:`not included`).
 Interpretation temperature profiles
 ***********************************
 
-Temperature profiles exist in two different forms within GHEtool: :ref:`monthly profile` and :ref:`hourly profile`
+Temperature profiles exist in two different forms within GHEtool: :ref:`monthly profile` and :ref:`hourly profile`.
 
 .. _monthly profile::
+
 Monthly temperature profile
 ---------------------------
 In this section, we will discuss some of the insights you can get from looking and studying a monthly based temperature profile.
@@ -59,9 +60,9 @@ is spread out evenly throughout this month.
 * **Tf base cooling** This is the average monthly average fluid temperature in cooling.
 * **Tf base heating** This is the average monthly average fluid temperature in heating.
 
-Looking at the different t
 
 .. _hourly profile::
+
 Hourly temperature profile
 --------------------------
 When you have an hourly temperature profile, you see lesser lines on the temperature plot.
