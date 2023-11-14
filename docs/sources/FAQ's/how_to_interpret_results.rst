@@ -8,7 +8,7 @@ tells you everything you need to know about your design, but it also has some li
 behind those temperature plots will be explained (:ref:`interpretation plots`) and also some of the effects that are not included
 are discussed (:ref:`not included`).
 
-.. admonition:: Test 1,2,3
+.. admonition:: Tailored geothermal advice
 
     Software is designed for general cases, and special projects will always require customized advice or a tailored study.
     If you find yourself questioning whether the complexity of a particular project exceeds the current capabilities of the software,
@@ -20,10 +20,37 @@ are discussed (:ref:`not included`).
 Interpretation temperature profiles
 ***********************************
 
+Temperature profiles exist in two different forms within GHEtool: :ref:`monthly profile` and :ref:`hourly profile`
+
+.. _monthly profile::
+Monthly temperature profile
+---------------------------
+In this section, we will discuss some of the insights you can get from looking and studying a monthly based temperature profile.
+
+
 .. image:: Figures/results.png
   :alt: Monthly temperature profile
 
+.. _hourly profile::
+Hourly temperature profile
+--------------------------
+When you have an hourly temperature profile, you see lesser lines on the temperature plot.
+Where the :ref:`monthly profile` had to take into account that each month has potentially both heating and cooling,
+an hourly profile has only one of the two.
 
+.. note::
+    Strictly speaking, even on an hourly basis, there could be a switch between heat injection and extraction within one hour.
+    This would however require temperature simulations with a smaller-than-hourly load resolution, which is
+    overkill for a geothermal design process.
+
+.. image:: Figures/results_hourly.png
+  :alt: Hourly temperature profile
+
+On the temperature plot above, you see two lines:
+
+* **Tb: borehole wall temperature** This is the temperature (in degrees C) of the borehole wall.
+* **Tf: average fluid temperature** This is the average fluid temperature (in degrees C) for every hour in the simulation period.
+This is the average between the inlet and outlet fluid temperature of your borefield.
 
 .. _not included::
 

@@ -6,7 +6,7 @@ The result page shows the results of the calculation of the current, selected sc
 The top part shows numerical results, whereas the other categories show figures.
 Since the results are depending on the :ref:`tab aim` of the scenario, they are described below in three sections.
 
-.. note::
+.. tip::
     If you want more information on how to interpret certain temperature profiles, please make sure to look at our
     FAQ on the topic: :ref:`interpret results`.
 
