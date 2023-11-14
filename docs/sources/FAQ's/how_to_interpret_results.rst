@@ -17,8 +17,8 @@ are discussed (:ref:`not included`).
 
 .. _interpretation plots::
 
-Interpretation temperature profiles
-***********************************
+Interpretation of temperature profiles
+**************************************
 
 Temperature profiles exist in two different forms within GHEtool: :ref:`monthly profile` and :ref:`hourly profile`.
 
