@@ -9,6 +9,7 @@ behind those temperature plots will be explained (:ref:`interpretation plots`) a
 are discussed (:ref:`not included`).
 
 .. tip:: Test 1,2,3
+
     Software is designed for general cases, and special projects will always require customized advice or a tailored study.
     If you find yourself questioning whether the complexity of a particular project exceeds the current capabilities of the software,
     feel free to reach out to us at `wouter@ghetool.eu <mailto:wouter@ghetool.eu>`_ for a specialised method or consultancy advice.
