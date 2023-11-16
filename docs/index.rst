@@ -1,9 +1,9 @@
+GHEtool Pro: the tool for borefield calculations
+################################################
+
 .. meta::
     :google-site-verification:
         kyNM7QCwOhYhhiMVgpGGiypcERRHnBJg69FoDxV1cLg
-
-GHEtool Pro: the tool for borefield calculations
-################################################
 
 .. toctree::
     :caption: 🚀 Quick start
