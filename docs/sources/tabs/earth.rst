@@ -68,8 +68,8 @@ this information is asked on this page.
 .. include:: ../General/caution_temperatures.rst
 
 * **Simulation period [years]** The simulation period in years, oftentimes between 20-60 years.
-* **Peak duration heating [hours]** The duration of the peak in heating. For slower emission systems, this is longer.
-* **Peak duration cooling [hours]** The duration of the peak in cooling. For slower emission systems, this is longer and typically lower than the duration for the heating peak.
+* **Peak duration heating [hours]** The duration of a single peak in heating. For slower emission systems, this is longer.
+* **Peak duration cooling [hours]** The duration of a single peak in cooling. For slower emission systems, this is longer and typically lower than the duration for the heating peak.
 
 .. note::
     Please note that the peak duration heating and peak duration cooling option is not always visible.
