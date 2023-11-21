@@ -97,6 +97,10 @@ These results hence can be used to start designing an intelligent hybrid system 
 .. image:: Figures/numerical_results_optimise.png
   :alt: Numerical results for optimise load profile.
 
+.. note::
+    The heating and cooling load on the borefield is expressed in secundary (i.e. building) loads. This is hence the heating
+    and cooling load from the building that can be full-filled geothermally.
+
 You also see a temperature profile like the one below. Most of the times, the temperature profile touches both the maximum
 and the minimum allowed average fluid temperature.
 
