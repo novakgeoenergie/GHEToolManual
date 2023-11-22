@@ -40,4 +40,10 @@ many peak heating/cooling has to be full-filled with another solution.
 
 .. note::
     This method uses a monthly based temperature calculation in the background in order to speed op the algorithm.
-    This however will most often not lead to any significant differences.
+    However, where the monthly method in the 'determine required depth' method converges based on an absolute or relative
+    difference in calculated depth between two iterations, this method converges based on a temperature difference between the average
+    fluid temperature and the respective limit.
+
+    This small difference in the background, can lead to a small difference in result between the 'calculate required depth' and 'optimise
+    load profile' methods. If you have a certain borefield of 150m deep which can cope with 100% of the building load, using the method 'calculate
+    required depth' can give you back a depth that differs from 150m. This is due to the difference in convergence criteria, but is will always be very small.
