@@ -59,7 +59,7 @@ A short welcome message
 Dear visitor,
 
 I want to wish you a warm welcome on this documentation website with everything you need to know about `GHEtool Pro <https://ghetool.eu>`_.
-This guide will be regularly updated, based on user feedback, so come and visit us again after some time for the newest info on how to work with GHEtool Pro!
+This user manual and guide will be regularly updated, based on user feedback, so come and visit us again after some time for the newest info on how to work with GHEtool Pro!
 
 Best regards,
 
