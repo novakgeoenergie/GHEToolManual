@@ -10,7 +10,7 @@ D E S I G N    D A T A
 GROUND
 
 Ground thermal conductivity 	1,76 W/(m·K)
-Ground heatcapacity 			2,41 MJ/(m³·K)
+Ground heat capacity 			2,41 MJ/(m³·K)
 Ground surface temperature 		9,5 °C
 Geothermal heat flux 			0,08 W/m²
 

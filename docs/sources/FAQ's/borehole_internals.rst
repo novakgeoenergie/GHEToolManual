@@ -1,3 +1,5 @@
+.. _borehole internals:
+
 Why don't I see the borehole internals?
 #######################################
 There are two different version of the :ref:`tab thermal resistance`: the one with a constant
