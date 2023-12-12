@@ -7,15 +7,14 @@ Total borehole length 	1226 m
 
 D E S I G N    D A T A
 ======================
-GROUND
 
+GROUND
 Ground thermal conductivity 	1,76 W/(m·K)
 Ground heat capacity 			2,41 MJ/(m³·K)
 Ground surface temperature 		9,5 °C
 Geothermal heat flux 			0,08 W/m²
 
 BOREHOLE
-
 Configuration: 					9 ("10 : 1 x 10 line")
 Borehole depth 					123 m
 Borehole spacing 				7 m
@@ -48,6 +47,7 @@ Annual cooling load 					30 MWh
 Seasonal performance factor (DHW) 		3
 Seasonal performance factor (heating) 	5
 Seasonal performance factor (cooling) 	1E5
+
 Monthly energy profile [MWh]
 Month 	Factor 	Heat load 	Factor 	Cool load 	Ground load
 JAN 	0,155 	13,4 		0 		0 			10,7

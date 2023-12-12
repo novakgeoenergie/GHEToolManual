@@ -80,7 +80,7 @@ in the :ref:`tab options` tab like explained here: :ref:`borehole internals`.
 * **U-pipe thermal conductivity** can directly be set in GHEtool.
 * **U-pipe shank spacing** GHEtool works with a pipe distance from the center. This is simple half of the shank spacing.
 * **Filling thermal conductivity** can be set in GHEtool as the *grout thermal conductivity*
-* **Contact resistance pipe/filling** This is not an input parameter in the GHEtool pipe model.
+* **Contact resistance pipe/filling** is not an input parameter in the GHEtool pipe model.
 
 .. note::
     The pipe roughness is not an input parameter within EED, but it is used to determine accurately the boundary
@@ -129,12 +129,60 @@ You get the following result:
 
 Load
 ----
+As the last step, you need to input the load values from EED into GHEtool. Therefore you open the :ref:`tab thermal demand` tab.
 
 .. image:: Figures/EED_load.png
   :alt: Load data within the EED export file
+
+.. caution::
+    Please set the *Load type* to *Building* when you use inputs from EED.
+
+* **Annual DHW load** can be set if you select to include domestic hot water.
+* **Annual heating load (DHW excluded)** not needed in GHEtool.
+* **Annual cooling load** not needed in GHEtool.
+* **Seasonal performance factor (DHW)** can be set as *SCOP DHW* in GHEtool.
+* **Seasonal performance factor (heating)** can be set as *SCOP* in GHEtool.
+* **Seasonal performance factor (cooling)** can be set as *SEER* in GHEtool.
+
+.. note::
+    Note that the SEER in GHEtool is limited to 1000, since there is always a primary pump working to circulate the fluid
+    across the borefield which is consuming electricity.
+
+For the heating and cooling loads, you need to use the *Heat load* and *Cool load* data from the first table.
+.. caution::
+    Note that you need to multiply these values by 1000 since they are given in MWh in EED and you need to input kWh in GHEtool.
+
+For the heating and cooling peaks, you use the values in the second table in the *Peak heat* and *Peak cool* column.
+
+You get this result in GHEtool:
+
+.. image:: Figures/GHEtool_load_type.png
+  :alt: SCOP data in GHEtool
+
+.. image:: Figures/GHEtool_load.png
+  :alt: load data in GHEtool
+
+Next, we need to set the peak durations. Therefore, we go to the :ref:`tab earth` tab.
+Here you can set a single peak duration for both heating and cooling instead of a value per month.
+Simply enter the longest duration of EED for both heating and cooling in GHEtool and your good to go.
+
+.. note::
+    GHEtool uses a model that works with a single peak duration for all months. By using just a single peak duration for
+    all months, the final feasibility of the geothermal system will not change, since the most critical month will stay the same.
+    In order to speed up the calculation, GHEtool therefore only uses one peak duration in heating and cooling.
+
+The *simulation period* can also be set in this tab.
+The result looks like this:
+
+.. image:: Figures/GHEtool_duration.png
+  :alt: Peak duration data in GHEtool
+
+.. note::
+    Note that GHEtool always start calculating in the first month of the year. If you have another month than January,
+    for now, you need to change the order of the months yourself.
 
 .. admonition:: Congratulations
 
     Congratulations, you have now successfully entered the EED project in GHEtool!
     When you press calculate, you can see that the results are almost the same with differences that can be explained
-    by the use of different models within EED/GHEtool.
+    by the use of different models within EED/GHEtool. The converted document can be downloaded :download:`here <Figures/GHEtool_example.GHEtool>`.
