@@ -48,17 +48,6 @@ The fluid parameters can be set either by using a certain % of glycol to form a 
 * **Reference fluid temperature [°C]** The reference temperature for the fluid properties.
 * **Mass flow rate [kg/s]** Mass flow rate per borehole.
 
-.. note::
-    Within GHEtool, the fluid temperatures are *the average fluid temperatures*, meaning the average between the intlet
-    and outlet fluid temperature. The minimum average fluid temperature is therefore not the lowest temperature you inject into
-    your borefield during the heating peak, but the average between the inlet and outlet temperatures of your borefield.
-
-    This is the case since in the background, the only temperature that matters for the heat transfer is the average fluid temperature,
-    and since the inlet and outlet temperatures are depending on the mass flow rate, it is easier to work with an average temperature.
-
-    If you typically work with, e.g. a minimum inlet temperature of 0, with a :math:`\Delta T` across your borefield of 4°C,
-    you enter 2°C as a minimum average fluid temperature.
-
 If you have a very specific fluid, you can enter its properties directly into GHEtool if you select *Custom* in the *Fluid properties* input.
 
 .. image:: Figures/borehole_resistance_fluid_custom.png
@@ -87,6 +76,15 @@ If you have a very specific fluid, you can enter its properties directly into GH
     If you want to take into account a higher flow rate when working with a series connection of borehole, you enter the resulting
     fluid mass flow rate into GHEtool. For example, you have a total mass flow rate of 0.4kg/s for 4 boreholes, with 2x2 in series,
     you enter 0.2kg/s as a mass flow rate into GHEtool.
+
+.. note::
+    Within GHEtool, you can set a reference temperature for your fluid parameters (see :ref:`tab thermal resistance`), which
+    has an influence on the Reynolds number and hence the thermal behaviour of your system. By default, this reference temperature is 10°C,
+    which is more or less the undisturbed ground temperature.
+
+    If you want a more conservative approach, you can set this temperature to the maximum or minimum average fluid temperature.
+    In that case you are sure that, whenever the thermal resistance matters the most (i.e. during the peak loads), they are calculated
+    with the worst case fluid parameters.
 
 .. _borehole internals:
 

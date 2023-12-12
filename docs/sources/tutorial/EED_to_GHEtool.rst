@@ -34,7 +34,7 @@ The first data you come across in the export, is the ground data. This can be en
 
 The result within GHEtool looks like this:
 
-.. image:: Figures/GHEtool_ground.png
+.. image:: Figures/GHEtool_earth.png
   :alt: Ground data set in GHEtool
 
 Borehole
@@ -82,6 +82,10 @@ in the :ref:`tab options` tab like explained here: :ref:`borehole internals`.
 * **Filling thermal conductivity** can be set in GHEtool as the *grout thermal conductivity*
 * **Contact resistance pipe/filling** This is not an input parameter in the GHEtool pipe model.
 
+.. note::
+    The pipe roughness is not an input parameter within EED, but it is used to determine accurately the boundary
+    between laminar and turbulent flow. Just set it to a very small number in order to get the same results as in EED.
+
 This gives you the following result:
 
 .. image:: Figures/GHEtool_pipe.png
@@ -97,9 +101,31 @@ This is irrelevant for GHEtool, so this paragraph can be ignored.
 
 Heat carrier fluid
 ------------------
+The following section contains the fluid properties. Therefore, you need to open once again the :ref:`tab thermal resistance` tab.
 
 .. image:: Figures/EED_HCF.png
   :alt: Heat carrier fluid data within the EED export file
+
+First you need to select *custom* in the *fluid properties* option.
+
+.. note::
+    Note that most likely the values in the EED export correspond to a specific glycol %, which is not exported. It can
+    be of interest to ask for this explicitly, since EED uses most often negative temperature as a references for the fluid properties.
+    As discussed here: :ref:`fluid parameters`, this value has a big influence on the final result. If you simply
+    want to compare EED with GHEtool, you can leave this note for what it is.
+
+* **Thermal conductivity** can be directly set within GHEtool.
+* **Specific heat capacity** can be directly set within GHEtool.
+* **Density** can be directly set within GHEtool.
+* **Viscosity** can be directly set within GHEtool ([kg/(m s)] is the same unit as [Pa s].
+* **Freezing point** this is not needed in GHEtool.
+* **Flow rate per borehole** in GHEtool, a mass flow rate is used, so you need to convert the flow rate in l/s to a flow rate
+  in kg/s. Therefore you multiply the *flow rate* from EED with the density and divide that by 1000.
+
+You get the following result:
+
+.. image:: Figures/GHEtool_HCF.png
+  :alt: HCF data in GHEtool
 
 Load
 ----
@@ -107,7 +133,8 @@ Load
 .. image:: Figures/EED_load.png
   :alt: Load data within the EED export file
 
-.. tip::
+.. admonition:: Congratulations
+
     Congratulations, you have now successfully entered the EED project in GHEtool!
     When you press calculate, you can see that the results are almost the same with differences that can be explained
     by the use of different models within EED/GHEtool.
