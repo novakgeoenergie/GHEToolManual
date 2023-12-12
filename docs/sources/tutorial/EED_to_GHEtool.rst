@@ -84,8 +84,8 @@ in the :ref:`tab options` tab like explained here: :ref:`borehole internals`.
 
 This gives you the following result:
 
-
-
+.. image:: Figures/GHEtool_pipe.png
+  :alt: Pipe data set in GHEtool
 
 Thermal resistances
 -------------------
