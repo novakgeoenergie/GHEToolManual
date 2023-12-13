@@ -1,7 +1,7 @@
 .. _reynolds number:
 
 What is the Reynolds number?
-##########################################
+############################
 
 The borehole equivalant thermal resistance is a rather important parameter in the design of borefields, and it is significantly influenced by the Reynolds number.
 But what is this number exactly.

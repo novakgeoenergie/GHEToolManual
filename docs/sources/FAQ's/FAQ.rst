@@ -18,3 +18,4 @@ Do you have a specific question? Perhaps you can find it in the list below!
     winerror.rst
     reynolds_number.rst
     borehole_internals.rst
+    difference_EED_GHEtool.rst

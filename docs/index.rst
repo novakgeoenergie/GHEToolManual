@@ -49,10 +49,10 @@ GHEtool Pro: the tool for borefield calculations
     sources/FAQ's/change_report_language.rst
     sources/FAQ's/TRT.rst
     sources/FAQ's/how_to_interpret_results.rst
-
     sources/FAQ's/winerror.rst
     sources/FAQ's/reynolds_number.rst
     sources/FAQ's/borehole_internals.rst
+    sources/FAQ's/difference_EED_GHEtool.rst
 
 A short welcome message
 =======================
