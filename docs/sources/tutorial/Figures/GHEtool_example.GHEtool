@@ -47,9 +47,9 @@
     "BEL-Gent"
    ],
    "option_ground_temp": 12.0,
-   "option_ground_temp_gradient": 9.500000000000002,
+   "option_ground_temp_gradient": 9.5,
    "option_temp_gradient": 3.0,
-   "option_ground_heat_flux": 0.07999999999999999,
+   "option_ground_heat_flux": 0.08,
    "option_min_temp": 2.0,
    "option_max_temp": 17.0,
    "option_simu_period": 50,
@@ -64,10 +64,10 @@
    "option_fluid_density": 1029.0,
    "option_fluid_capacity": 3930.0,
    "option_fluid_viscosity": 0.0045,
-   "option_fluid_mass_flow": 0.425,
+   "option_fluid_mass_flow": 0.442,
    "option_U_pipe_or_coaxial_pipe": 0,
    "option_pipe_number": 2,
-   "option_pipe_grout_conductivity": 1.4999999999999996,
+   "option_pipe_grout_conductivity": 1.5,
    "option_pipe_conductivity": 0.42,
    "option_pipe_inner_radius": 0.013,
    "option_pipe_outer_radius": 0.016,
@@ -82,20 +82,20 @@
    "option_decimal_csv": 0,
    "option_filename": "",
    "option_column": 1,
-   "option_heating_column_text": "Heating",
+   "option_heating_column_text": "",
    "option_heating_column": [
-    1,
-    "Heating"
+    -1,
+    ""
    ],
-   "option_cooling_column_text": "Cooling",
+   "option_cooling_column_text": "",
    "option_cooling_column": [
-    0,
-    "Cooling"
+    -1,
+    ""
    ],
-   "option_single_column_text": "Cooling",
+   "option_single_column_text": "",
    "option_single_column": [
-    0,
-    "Cooling"
+    -1,
+    ""
    ],
    "option_unit_data": 1,
    "geo_load": 1,
@@ -395,5 +395,5 @@
  "results": [
   null
  ],
- "default_path": "C:\\Users\\WouterPeere\\Python\\GHEtool Pro Manual\\docs\\sources\\tutorial\\Figures"
+ "default_path": "C:\\Users\\WouterPeere\\Documents\\GHEtool Pro"
 }

@@ -149,6 +149,7 @@ As the last step, you need to input the load values from EED into GHEtool. There
     across the borefield which is consuming electricity.
 
 For the heating and cooling loads, you need to use the *Heat load* and *Cool load* data from the first table.
+
 .. caution::
     Note that you need to multiply these values by 1000 since they are given in MWh in EED and you need to input kWh in GHEtool.
 
