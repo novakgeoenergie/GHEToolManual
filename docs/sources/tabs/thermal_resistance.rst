@@ -44,7 +44,7 @@ The fluid parameters can be set either by using a certain % of glycol to form a 
   :alt: Input for the fluid glycol parameters
 
 * **Type of glycol** Select the type of glycol you want to use.
-* **Percentage of glycol [%]** The percentage of glycol in the glycol-water mixture.
+* **Percentage of glycol [%]** The mass percentage of glycol in the glycol-water mixture.
 * **Reference fluid temperature [°C]** The reference temperature for the fluid properties.
 * **Mass flow rate [kg/s]** Mass flow rate per borehole.
 
